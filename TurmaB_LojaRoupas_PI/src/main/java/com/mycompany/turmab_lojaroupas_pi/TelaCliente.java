@@ -174,7 +174,7 @@ public class TelaCliente extends javax.swing.JFrame {
         String nome=txtNome.getText();
         //JFormattedTextField.AbstractFormatter cpf=txtFormatCPF.getFormatter();    
         JOptionPane.showMessageDialog(this, "O campo 'nome' "+nome+" ou o CPF está vazio"+cpf);
-        }else{
+        }else{//se nao estiver vazio, ele informa que foi cadastrado com sucesso
         JOptionPane.showMessageDialog(this, //componente pai
                 "Cliente cadastrado com sucesso!", "Caixa de Texto",JOptionPane.WARNING_MESSAGE);
         }
