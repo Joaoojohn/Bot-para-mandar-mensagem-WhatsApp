@@ -17,7 +17,7 @@ namespace BotWhatsApp
             List<string> contacts = new List<string>()
             {
     
-                "Anotações" //nome do contato 
+                "Anotações", "João P." //nomes dos contatos 
 
             };
 
@@ -63,7 +63,9 @@ namespace BotWhatsApp
 
                 var buttonSend = driver.FindElementByXPath($"//span[@data-icon='send']");
                 buttonSend.Click();
-
+                
+                
+                Thread.Sleep(5000);
 
             }
 
