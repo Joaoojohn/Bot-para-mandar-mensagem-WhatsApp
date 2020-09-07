@@ -168,6 +168,7 @@ public class TelaCliente extends javax.swing.JFrame {
 
     private void botaoOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoOKActionPerformed
         // TODO add your handling code here:
+        //aqui eu faço um if else, para caso o usuario tete dar ok mas com os campos vazios
         JFormattedTextField.AbstractFormatter cpf=txtFormatCPF.getFormatter();
         if(txtNome.getText().trim().equals("") || txtFormatCPF.getFormatter().equals("")){
         String nome=txtNome.getText();
