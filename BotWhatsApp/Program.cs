@@ -14,11 +14,10 @@ namespace BotWhatsApp
         {
             string url = "https://web.whatsapp.com";
 
-
             List<string> contacts = new List<string>()
             {
     
-                "Anotações"
+                "Anotações" //nome do contato 
 
             };
 
@@ -55,7 +54,7 @@ namespace BotWhatsApp
                 //<div tabindex="-1" class="_3uMse"><div tabindex="-1" class="_2FVVk _2UL8j"><div class="_2FbwG" style="visibility: visible;">Digite uma mensagem</div><div class="_3FRCZ copyable-text selectable-text" contenteditable="true" data-tab="1" dir="ltr" spellcheck="true"></div></div></div>
 
                 var chat = driver.FindElementByClassName("_3uMse");
-                chat.SendKeys("https://cdn.motor1.com/images/mgl/9Lvry/s1/2021-ford-mustang-mach-1.jpg!");
+                chat.SendKeys("Olá tudo bem?! bot created by: João Pedro");
 
                 Thread.Sleep(1000);
 
