@@ -88,7 +88,7 @@ public class TelaCliente extends javax.swing.JFrame {
             painel_CadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(painel_CadastroLayout.createSequentialGroup()
                 .addGap(159, 159, 159)
-                .addComponent(jImgUser, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
+                .addComponent(jImgUser, javax.swing.GroupLayout.DEFAULT_SIZE, 110, Short.MAX_VALUE)
                 .addGap(167, 167, 167))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painel_CadastroLayout.createSequentialGroup()
                 .addGap(18, 18, 18)
@@ -107,13 +107,10 @@ public class TelaCliente extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painel_CadastroLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(botaoOK)
-                .addGap(65, 65, 65)
-                .addComponent(botaoCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(65, 65, 65))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(botaoCancelar)
+                .addGap(118, 118, 118))
         );
-
-        painel_CadastroLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {botaoCancelar, botaoOK});
-
         painel_CadastroLayout.setVerticalGroup(
             painel_CadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(painel_CadastroLayout.createSequentialGroup()
