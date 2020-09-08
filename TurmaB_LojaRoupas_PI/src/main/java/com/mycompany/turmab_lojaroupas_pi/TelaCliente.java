@@ -108,7 +108,8 @@ public class TelaCliente extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(botaoOK)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(botaoCancelar))
+                .addComponent(botaoCancelar)
+                .addGap(91, 91, 91))
         );
         painel_CadastroLayout.setVerticalGroup(
             painel_CadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -124,12 +125,10 @@ public class TelaCliente extends javax.swing.JFrame {
                     .addComponent(jCPF)
                     .addComponent(txtFormatCPF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
-                .addComponent(botaoOK)
+                .addGroup(painel_CadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(botaoOK)
+                    .addComponent(botaoCancelar))
                 .addGap(16, 16, 16))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painel_CadastroLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(botaoCancelar)
-                .addContainerGap())
         );
 
         painel_CadastroLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {txtFormatCPF, txtNome});
